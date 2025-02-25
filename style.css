@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 header{
     background-image: linear-gradient(to right,#BF0404,#590202);
     padding: 15px;
@@ -36,6 +37,17 @@ article{
     width: 90%;
     margin: auto;
 }
+footer{
+    background-color: black;
+    color: white;
+}
+footer>h3{
+    padding: 3px;
+    font-size: 1em;
+    text-align: center;
+
+}
+
 picture{
     display: flex;
     justify-content: center;
@@ -87,9 +99,6 @@ h3{
     font-family: "Nunito",Times,Serif;
     font-size: 2.3em;
     padding: 10px 0px 10px 20px;
-
-    margin: 12px;
-
 }
 p{
     padding: 12px;
